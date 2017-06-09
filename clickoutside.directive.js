@@ -101,7 +101,7 @@
                         // works on most browsers, IE10/11 and Surface
                         return 'ontouchstart' in window || navigator.maxTouchPoints;
                     };
-                });
+                }, 0, false);
             }
         };
     }
